@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>week9</title>
+    <style>
+        #main {
+            height: 600px;
+            width: 400px;
+            border: 3px solid rgba(0, 0, 0, 0.164);
+            margin: auto;
+            border-radius: 8px;
+        }
+
+        h3 {
+            margin-top: 35px;
+            /* text-align: center; */
+            font-size: 25px;
+            margin-left: 20px;
+        }
+
+        label{
+            margin-left: 20px;
+        }
+        div{
+            margin-left: 20px;
+        }
+
+
+        #gender {
+            width: 200px; /* Adjust width as needed */
+            height: 40px; /* Adjust height as needed */
+            font-size: 16px; /* Adjust font size */
+            padding: 5px; /* Add some padding */
+            border-radius: 5px; /* Optional: round the corners */
+            margin-left: 20px;
+        }
+        #Email, #name, .Password, #gender{
+            width: 350px;
+            height: 35px;
+            font-size: medium;
+            border-radius: 7px;
+            border: 1px solid rgba(0, 0, 0, 0.349);
+
+        }
+
+        #submit{
+            /* text-align: center; */
+            margin-left: 20px;
+            height: 40px;
+            width: 350px;
+            background-color: rgb(55, 238, 55);
+            font-size: 15px;
+            border: 3px;
+            border-radius: 9px;
+        }
+
+        
+
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <h3>Registration Form</h3>
+        <form action="database.php">
+            <label for="name">Name</label>
+            <div><input type="text" name="myname" id="name"></div><br>
+
+
+            <label for="Email">Email</label>
+            <div><input type="email" id="Email"></div><br>
+
+            <label for="password">Password</label>
+            <div><input type="password" class="Password"></div><br>
+
+            <label for="gender">Gender:</label><br>
+            
+            <select id="gender" name="gender" required>
+                <option value="" disabled selected>Select</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select><br><br>
+
+                <label for="bio">Bio</label>
+                <div><textarea name="mytextarea" id="bio"  cols="42" rows="7"></textarea></div><br>
+
+                <input id="submit" type="submit" >
+            
+            
+
+            </div>
+
+
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        #container{
+            height: 400px;
+            width: 450px;
+            border: 3px solid black;
+            margin: auto;
+        }
+
+        #box1{
+            height: 100px;
+            width: 400px;
+            border: 2px solid black;
+            margin: auto;
+            border-radius: 8px;
+            margin-top: 10px;
+            text-align: center;
+            
+        }
+        h3{
+            margin-top: 35px;
+            /* text-align: center; */
+            font-size: 25px;
+        }
+
+        #box2{
+            height: 250px;
+            width: 400px;
+            border: 2px solid black;
+            margin: auto;
+            border-radius: 8px;
+            margin-top: 10px;
+            padding: 5px;
+        }
+
+
+        th , td{
+            border: 2px solid rgb(0, 0, 0);
+            
+            /* padding: 10px; */
+            height: 40px;
+            width: 150px;
+            margin-left: 10px;
+            margin: auto;
+            /* border-radius: 8px; */
+            color: magenta;
+            align-items: center;
+            text-align: center;
+
+        }
+
+        .heading{
+            background-color: rgb(38, 7, 150);
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="box1"> <h3>Marks Table</h3>
+
+        </div>
+
+        <div id="box2">
+            <table>
+                <tr class="heading">
+                    <th>Name</th>
+                    <th>Math</th>
+                    <th colspan="2">Physics</th>
+                </tr>
+                <tr>
+                    <td>Gautam</td>
+                    <td>99</td>
+                    <td>98</td>
+                    <td>98</td>
+                </tr>
+                <tr>
+                    <td>Aravind</td>
+                    <td>92</td>
+                    <td>97</td>
+                    <td>97</td>
+                    
+                </tr>
+                <tr>
+                    <td>Rahul</td>
+                    <td>90</td>
+                    <td>95</td>
+                    <td>95</td>
+                    <!-- <th>95</th> -->
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>291</td>
+                    <td>290</td>
+                    <td>290</td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+</body>
+</html>

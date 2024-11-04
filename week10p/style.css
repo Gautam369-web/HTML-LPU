@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+#header {
+    background-color: #f0a2a2;
+    color: rgb(46, 54, 208);
+    padding: 0 2px;
+    /* height: 50px; */
+    margin: 3px 30px;
+    text-align: center;
+    border-radius: 10px;
+    /* font-size: 1.5em; */
+    font-weight: bold;
+    
+}
+
+
+
+nav{
+    background-color: #6a5b5b;
+    color: black;
+    height: 20px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+li{
+    display: inline;
+    padding: 10px;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+h1{
+    
+    font-size: 1.5em;
+    margin: 20px 30px;
+}
+
+#main{
+    color: #f0a2a2;
+}
+#about{
+    margin: 20px;
+    margin-left: 30px;
+}
+
+#project1{
+    margin: 20px;
+    margin-left: 30px;
+    border: 2px solid rgba(0, 0, 0, 0.397);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#project2{
+    margin: 20px;
+    margin-left: 30px;
+    border: 2px solid rgba(0, 0, 0, 0.397);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.project{
+    margin-top: 10px;
+    border-radius: 10px;
+    
+}
+
+th, td{
+    border: 2px solid rgba(0, 0, 0, 0.238);
+    padding: 10px;
+    width: 100vw;
+    /* text-align: center; */
+
+    
+}
+
+table{
+    border-collapse: collapse;
+    /* width: 100vw; */
+    margin: 30px;
+}
+
+label{
+    margin-left: 30px;
+}
+#name, #email{
+    width: 80%;
+    padding: 5px;
+    margin: 5px 0px 5px 30px;
+}
+
+
+#gkk{
+    margin: 20px;
+    margin-left: 30px;
+    border: 2px solid rgba(0, 0, 0, 0.397);
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+input[type="checkbox"]{
+    margin-left: 30px;
+}
+
+#newlatter{
+    margin-left: 10px;
+}
+
+.send{
+    margin: 10px 5px 10px 5px;
+    padding: 10px;
+    background-color: #161414;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+#footer{
+    background-color: #3b3232;
+    padding: 6px;
+}
+
+footer{
+    background-color: #d6d6d6;
+    color: rgb(46, 54, 208);
+    padding: 10px 20px; 
+    margin: 3px 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#end{
+    padding: 10px;
+    text-align: center;
+}
+
